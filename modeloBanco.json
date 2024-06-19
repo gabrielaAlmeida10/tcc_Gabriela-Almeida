@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Leitor",
+  "description": "Um leitor cadastrado",
+  "type": "object", 
+  "properties": {
+    "idLeitor": {
+      "description": "O identificador unico do Leitor",
+      "type": "integer",
+      "minimum": 1
+    },
+    "nome":{
+      "description": "Nome completo do usuário, utilizado para exibição em perfis e relatórios.",
+      "type":"string"
+    },
+    "email":{
+      "description": "Endereço de e-mail válido do usuário. Deve seguir o formato padrão de e-mail (exemplo: usuario@dominio.com).",
+      "type": "string"
+    },
+    "senha":{
+      "description": "Senha utilizada para autenticação do usuário no sistema",
+      "type":"string"
+    },
+    "fotoPerfil":{
+      "description": "URL para a foto do usuário armazenada em local externo",
+      "type":"string",
+      "format":"uri"
+    }
+  },
+  "required":["idLeitor"]
+}
