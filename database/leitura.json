@@ -55,5 +55,5 @@
       "type": "string"
     }
   },
-  "required": ["idLeitura", "idLeitor", "idLivro", "totalPag"]
+  "required": ["idLeitura", "idLeitor", "idLivro", "nome", "pagLidas"]
 }
