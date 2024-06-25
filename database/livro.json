@@ -58,5 +58,5 @@
       "type": "string"
     }
   },
-  "required": ["idLivro", "titulo", "autor", "paginas"]
+  "required": ["idLivro", "titulo"]
 }
