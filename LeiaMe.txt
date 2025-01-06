@@ -3,7 +3,7 @@ Título: Backend para Site de Organização Pessoal de Leitura: Desenvolvimento 
 Otimização de Recursos
 Resumo: Este trabalho apresenta o desenvolvimento de um sistema backend voltado à organização
 pessoal de leituras, com o objetivo de facilitar a gestão de livros e incentivar hábitos de leitura
-contínuos e enriquecedores. A solução proposta utiliza a arquitetura MVC
+contínuos e enriquecedores. A solução proposta utiliza a arquitetura MVC 
 (Model-View-Controller), Node.js e Express para a implementação da lógica de negócios,
 enquanto o Firebase é empregado para o gerenciamento do banco de dados (Firestore),
 armazenamento de arquivos (Storage) e autenticação de usuários. O desenvolvimento foi
