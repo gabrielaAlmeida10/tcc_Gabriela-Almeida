@@ -1,0 +1,23 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Arquivos de ambiente e chaves de API
+.env
+firebase-adminsdk.json
+
+# Uploads temporários (caso tenha alguma pasta para isso)
+uploads/
+
+# Diretórios temporários e de cache
+.DS_Store
+*.log
+*.tmp
+
+# Pastas e arquivos específicos do sistema operacional
+Thumbs.db
+.vscode/
+.idea/
